@@ -6,6 +6,7 @@ import by.gsu.omglab.Equipment;
 import by.gsu.omglab.EquipmentBoots;
 import by.gsu.omglab.EquipmentHelmet;
 import by.gsu.omglab.EquipmentJacket;
+import by.gsu.omglab.WriterInfo;
 
 public class Runner {
 	private static void printAll(Object obj[]) {
@@ -37,6 +38,8 @@ public class Runner {
 		System.out.println("Cost:"+ biker.getTotal());
 		Arrays.sort(inventory);
 		printAll(inventory);
+		WriterInfo.showInfo(inventory[3]);
+		System.out.println("----------------");
 		System.out.println("Enter min cost");
 		minCost = console.nextInt();
 		System.out.println("Enter max cost");
@@ -48,8 +51,7 @@ public class Runner {
 				System.out.println(item);
 			}
 		}
-		
-		
+
 	}
 
 }

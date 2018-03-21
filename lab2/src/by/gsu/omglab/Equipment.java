@@ -1,7 +1,5 @@
 package by.gsu.omglab;
-
-public class Equipment implements Comparable<Equipment>{
-
+public abstract class Equipment implements Comparable<Equipment>{
 protected String name;
 protected double weight;
 protected int price;
@@ -50,7 +48,4 @@ public String toString() {
 public int compareTo(Equipment arg0) {
 	return (int)(this.weight-arg0.weight);
 }
-
-
-
 }
