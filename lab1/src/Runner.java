@@ -35,8 +35,8 @@ public class Runner {
 			prizes++;
 		}
 	}
-	System.out.println("Total"+total);
-	System.out.println("Races with prize"+prizes);
+	System.out.println("Total: "+total);
+	System.out.println("Races with prize: "+prizes);
 	System.out.println("--------------------");
 	printAll(races);
 	System.out.println("--------------------");
