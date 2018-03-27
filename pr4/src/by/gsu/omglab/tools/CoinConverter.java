@@ -1,4 +1,4 @@
-package by.gsu.pms;
+package by.gsu.omglab.tools;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
